@@ -5,7 +5,7 @@ public class MorningCheckTest {
 public void testSayHello() {
 Display display = mock(Display.class);
 TimeProvider timeProvider = mock(TimeProvider.class);
-when(timeProvider.time()).thenReturn('8');
+when(timeProvider.time()).thenReturn('5');
 MorningCheck morningCheck=new
 MorningCheck(timeProvider,display);
 morningCheck.sayHello();
